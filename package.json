@@ -5,8 +5,9 @@
   "main": "server/src/server.js",
   "scripts": {
     "start": "node server/src/server.js",
-    "build": "cd client && npm install && npm run build",
-    "seed": "cd server && node src/seed.js",
+    "build": "cd client && npm install --include=dev && npm run build && cd ../server && npm install",
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "seed": "node server/src/seed.js",
     "dev": "node server/src/server.js",
     "client": "cd client && npm run dev",
     "server": "cd server && npm run dev"
@@ -21,5 +22,14 @@
     "ictak"
   ],
   "author": "Fayiz Mohammed (fayiz225027@sahrdaya.ac.in)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0"
+  }
 }
