@@ -1,0 +1,25 @@
+{
+  "name": "careerconnect-capstone",
+  "version": "1.0.0",
+  "description": "CareerConnect - ICTAK Capstone Internship and Job Portal (MERN Stack)",
+  "main": "server/src/server.js",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "build": "cd client && npm install && npm run build",
+    "seed": "cd server && node src/seed.js",
+    "dev": "node server/src/server.js",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "capstone",
+    "ictak"
+  ],
+  "author": "Fayiz Mohammed (fayiz225027@sahrdaya.ac.in)",
+  "license": "MIT"
+}
