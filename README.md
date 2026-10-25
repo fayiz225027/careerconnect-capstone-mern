@@ -220,11 +220,15 @@ npm run dev
 
 ---
 
-## 📄 Submission Documents
+## 📄 Official Submission Deliverables & PDF Downloads
 
-All formal project artifacts required by ICT Academy of Kerala are prepared in the `/docs` folder:
-1. **Software Requirements Specification (SRS)**: [`docs/SRS_CareerConnect.docx`](./docs/SRS_CareerConnect.docx) & [`docs/SRS_CareerConnect.md`](./docs/SRS_CareerConnect.md)
-2. **Final Internship & Capstone Project Report**: [`docs/CareerConnect_Project_Report_ICTAK.docx`](./docs/CareerConnect_Project_Report_ICTAK.docx) & [`docs/CareerConnect_Project_Report_ICTAK.md`](./docs/CareerConnect_Project_Report_ICTAK.md)
+All formal submission artifacts required by ICT Academy of Kerala are available in both PDF and Word format in the [`/docs`](./docs) folder:
+
+| Document | PDF Download Link | Word / Source Link | Description |
+| :--- | :--- | :--- | :--- |
+| **1. Bundled Screenshots** | [**`CareerConnect_Screenshots.pdf`**](./docs/CareerConnect_Screenshots.pdf) | [`/screenshots`](./screenshots) | All 12 client-side views bundled as a single multi-page PDF |
+| **2. SRS Document** | [**`SRS_CareerConnect.pdf`**](./docs/SRS_CareerConnect.pdf) | [`SRS_CareerConnect.docx`](./docs/SRS_CareerConnect.docx) | IEEE Std 830-1998 compliant requirements specification |
+| **3. Final Project Report** | [**`CareerConnect_Project_Report_ICTAK.pdf`**](./docs/CareerConnect_Project_Report_ICTAK.pdf) | [`Report.docx`](./docs/CareerConnect_Project_Report_ICTAK.docx) | Formal Summer Internship Report following ICTAK template |
 
 ---
 
